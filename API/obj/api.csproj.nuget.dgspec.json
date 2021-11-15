@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\user-management\\api\\api.csproj": {}
+    "D:\\PracticeCode\\user-management\\API\\api.csproj": {}
   },
   "projects": {
-    "D:\\Project\\user-management\\api\\api.csproj": {
+    "D:\\PracticeCode\\user-management\\API\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\user-management\\api\\api.csproj",
+        "projectUniqueName": "D:\\PracticeCode\\user-management\\API\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\Project\\user-management\\api\\api.csproj",
+        "projectPath": "D:\\PracticeCode\\user-management\\API\\api.csproj",
         "packagesPath": "C:\\Users\\Tri\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\user-management\\api\\obj\\",
+        "outputPath": "D:\\PracticeCode\\user-management\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.13.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.0-beta1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -69,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
