@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "01266/qIXvc0JRrlR3Z600o7mRAnkCieIBFOiyv+md1vzjwGjHjO5/lTypBWVaHMslcRAiG2B/Wpcn20YTLBtw==",
-  "success": false,
+  "dgSpecHash": "dGZAFv90P7ZIepOQ8qpmUn9E9MeYPwYs72oFbCUl9BKAB4DPaH3mvXBFWgkMC5saRgjZWhrdiaeu8F/Bu45qHA==",
+  "success": true,
   "projectFilePath": "D:\\PracticeCode\\user-management\\API\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tri\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Tri\\.nuget\\packages\\mongodb.bson\\2.13.2\\mongodb.bson.2.13.2.nupkg.sha512",
+    "C:\\Users\\Tri\\.nuget\\packages\\mongodb.bson\\2.14.0-beta1\\mongodb.bson.2.14.0-beta1.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\mongodb.driver\\2.14.0-beta1\\mongodb.driver.2.14.0-beta1.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\mongodb.driver.core\\2.14.0-beta1\\mongodb.driver.core.2.14.0-beta1.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.3\\mongodb.libmongocrypt.1.2.3.nupkg.sha512",
@@ -21,15 +21,5 @@
     "C:\\Users\\Tri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Tri\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: MongoDB.Bson from 2.14.0-beta1 to 2.13.2. Reference the package directly from the project to select a different version. \r\n api -> MongoDB.Driver 2.14.0-beta1 -> MongoDB.Bson (>= 2.14.0-beta1) \r\n api -> MongoDB.Bson (>= 2.13.2)",
-      "libraryId": "MongoDB.Bson",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

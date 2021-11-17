@@ -40,7 +40,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "MongoDB.Bson/2.13.2": {
+      "MongoDB.Bson/2.14.0-beta1": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
@@ -344,23 +344,21 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "MongoDB.Bson/2.13.2": {
-      "sha512": "qY9271GFCYLA8OB3MdQC8clJh9wnh65gcxUa5Skwh2xYryv21YAHx/VOvv4ILpkb1NhIVgy3LBQhVBldwLaqNg==",
+    "MongoDB.Bson/2.14.0-beta1": {
+      "sha512": "ZxUcrAHpeJ47+glZoOqq3pJmrsMhcMNSDcaSEtdaVzTHHgurUihMa0Kb2Xi6g1u3PeSDmE0PPzhVJNb5S5UUsA==",
       "type": "package",
-      "path": "mongodb.bson/2.13.2",
+      "path": "mongodb.bson/2.14.0-beta1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "License.txt",
-        "lib/net452/MongoDB.Bson.dll",
-        "lib/net452/MongoDB.Bson.xml",
-        "lib/netstandard1.5/MongoDB.Bson.dll",
-        "lib/netstandard1.5/MongoDB.Bson.xml",
+        "lib/net472/MongoDB.Bson.dll",
+        "lib/net472/MongoDB.Bson.xml",
         "lib/netstandard2.0/MongoDB.Bson.dll",
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.13.2.nupkg.sha512",
+        "mongodb.bson.2.14.0-beta1.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
@@ -651,7 +649,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MongoDB.Bson >= 2.13.2",
       "MongoDB.Driver >= 2.14.0-beta1",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -703,10 +700,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "MongoDB.Bson": {
-            "target": "Package",
-            "version": "[2.13.2, )"
-          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.14.0-beta1, )"
@@ -734,19 +727,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: MongoDB.Bson from 2.14.0-beta1 to 2.13.2. Reference the package directly from the project to select a different version. \r\n api -> MongoDB.Driver 2.14.0-beta1 -> MongoDB.Bson (>= 2.14.0-beta1) \r\n api -> MongoDB.Bson (>= 2.13.2)",
-      "libraryId": "MongoDB.Bson",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }
